@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+}
+
+#site{
+    display: grid;
+
+
+    grid-template-areas: 
+        'menu_esquerda       principal  '
+        'menu_esquerda       principal  '
+        'menu_esquerda       principal  '
+        'menu_esquerda       principal  '
+
+    ;
+    width: 1000px;
+    margin: 200 auto;
+}
+
+#site div{ 
+    padding: 1em; 
+    text-align: center;
+}
+
+
+
+#menu_esquerda{
+    background-color: rgb(238, 214, 253);
+    grid-area: menu_esquerda;
+    height: 1800px;
+    width: 300px;
+}
+
+#logo_insta{
+    background-color: rgb(202, 154, 231);
+    height: 200px;
+    width: 300px;
+    margin-left: -16px;
+    margin-top: -16px;
+}
+
+#opcoes{
+    background-color: rgb(161, 119, 187);
+    height: 1410px;
+    width: 300px;
+    margin-left: -16px;
+}
+
+#mais{
+    background-color: rgb(113, 88, 126);
+    height: 125px;
+    width: 300px;
+    margin-left: -16px;
+}
+
+
+#principal{
+    background-color: rgb(136, 76, 126);
+    grid-area: principal;
+    height: 1800px;
+    width: 1200px;
+}
+
+#topo_perfil{
+    background-color: rgb(192, 128, 181);
+    height: 340px;
+    width: 1170px;
+}
+
+
+#foto{
+    background-color: rgb(155, 53, 138);
+    height: 300px;
+    width: 380px;
+    margin-top: -72px;
+
+}
+
+#nome_perfil{
+    display: inline-block;
+    background-color: rgb(145, 88, 135);
+    height: 40px;
+    width: 730px;   
+    margin-left: 412px; 
+}
+
+#seguidores{
+    background-color: rgb(150, 105, 142);
+    height: 40px;
+    width: 730px; 
+    margin-left: 412px;  
+    margin-top: -260px;  
+}
+
+#bio{
+    background-color: rgb(197, 163, 191);
+    height: 156px;
+    width: 730px; 
+    margin-left: 412px;  
+}
+
+#destaques{
+    background-color: rgb(170, 101, 184);
+    height: 100px;
+    width: 1170px;  
+}
+
+#publicacoes{
+    background-color: rgb(184, 101, 156);
+    height: 30px;
+    width: 1170px;  
+}
+
+#galeria{
+    background-color: rgb(216, 135, 155);
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap: 1em;
+    width: 1170px;
+    height: 1200px;
+}
+
+.fotos {
+    background-color: rgb(219, 166, 179);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 350px;
+    height: 350px;
+}
